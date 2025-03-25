@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 import { Request, Response, NextFunction } from "express";
 <<<<<<< HEAD
 import { Schema } from "joi"; 
@@ -40,3 +42,4 @@ export function errorHandler(
     res.status(500).json({ message: "An unknown error occurred" });
 >>>>>>> main
 }
+>>>>>>> 0519350e270a748a4d959111673102230aff5114
