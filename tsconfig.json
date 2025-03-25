@@ -1,4 +1,29 @@
+<<<<<<< HEAD
+=======
 {
+<<<<<<< HEAD
+    "compilerOptions": {
+      /* Language and Environment */
+      "target": "es2016",
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+  
+      /* Modules */
+      "module": "commonjs",
+  
+      /* Interop Constraints */
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+  
+      /* Type Checking */
+      "strict": true,
+      "strictPropertyInitialization": false,
+  
+      /* Completeness */
+      "skipLibCheck": true
+    }
+  }
+=======
   "compilerOptions": {
     /* Language and Environment */
     "target": "es2016",
@@ -20,3 +45,5 @@
     "skipLibCheck": true
   }
 }
+>>>>>>> main
+>>>>>>> 0519350e270a748a4d959111673102230aff5114
