@@ -4,6 +4,8 @@ import { db } from "../_helpers/db";
 // Define the user service methods
 const userService = {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
     create,
 };
 
@@ -33,6 +35,7 @@ async function create(params: any) {
     return user;
 }
 
+>>>>>>> 34d66c1052afae2ae8ae8738f7a18a90baee05ef
 =======
 
     getAll,
@@ -51,6 +54,7 @@ async function getById(id: string) {
     const user = await db.connection.getRepository(User).findOne({ where: { id } });
     if (!user) throw new Error("User not found");
 
+>>>>>>> main
     update,
     delete: _delete,
 };
@@ -81,7 +85,10 @@ async function update(id: string, params: any) {
     // Update the user
     Object.assign(user, params);
     await db.connection.getRepository(User).save(user);
+<<<<<<< HEAD
+=======
 
+>>>>>>> main
     return user;
 }
 
