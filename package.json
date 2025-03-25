@@ -1,4 +1,13 @@
 {
+<<<<<<< HEAD
+  "dependencies": {
+    "mysql2": "^3.14.0",
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^0.3.21"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.13"
+=======
   "name": "group-project-repo",
   "version": "1.0.0",
   "description": "",
@@ -34,5 +43,6 @@
     "mysql2": "^3.14.0",
     "reflect-metadata": "^0.2.2",
     "typeorm": "^0.3.21"
+>>>>>>> main
   }
 }

@@ -1,4 +1,23 @@
 import { Request, Response, NextFunction } from "express";
+<<<<<<< HEAD
+import { Schema } from "joi"; 
+
+export function validateRequest(req: Request, res: Response, next: NextFunction, schema: Schema): void {
+    const options = {
+        abortEarly: false, 
+        allowUnknown: true, 
+        stripUnknown: true, 
+    };
+
+    const { error, value } = schema.validate(req.body, options);
+
+    if (error) {
+        return next(`Validation error: ${error.details.map((x) => x.message).join(", ")}`);
+    } else {
+        req.body = value; 
+        next();
+    }
+=======
 
 export function errorHandler(
     err: unknown,
@@ -19,4 +38,5 @@ export function errorHandler(
     }
 
     res.status(500).json({ message: "An unknown error occurred" });
+>>>>>>> main
 }
