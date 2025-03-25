@@ -1,13 +1,22 @@
 {
   "compilerOptions": {
-    "target": "ES6",
+    /* Language and Environment */
+    "target": "es2016",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    /* Modules */
     "module": "commonjs",
-    "rootDir": "./src",
-    "outDir": "./dist",
-    "strict": true,
+
+    /* Interop Constraints */
     "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    "strict": true,
+    "strictPropertyInitialization": false,
+
+    /* Completeness */
     "skipLibCheck": true
-  },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules", "dist"]
+  }
 }
