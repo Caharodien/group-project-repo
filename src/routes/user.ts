@@ -1,6 +1,10 @@
 import express from "express";
 <<<<<<< HEAD
+<<<<<<< HEAD
+import { updateUser, deleteUser } from "../controllers/user.controller";
+=======
 import { createUser } from "../controllers/user.controller";
+>>>>>>> 34d66c1052afae2ae8ae8738f7a18a90baee05ef
 import Joi from "joi";
 =======
 import Joi from "joi";
