@@ -45,4 +45,11 @@ export async function getAllUsers(req: Request, res: Response, next: NextFunctio
 export async function getUserById(req: Request, res: Response, next: NextFunction) {
     try {
         const user = await userService.getById(req.params.id);
+<<<<<<< HEAD
         res.json(user);
+=======
+        res.json(user);
+
+    }
+}
+>>>>>>> main

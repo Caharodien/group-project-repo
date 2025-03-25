@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "dependencies": {
     "mysql2": "^3.14.0",
     "reflect-metadata": "^0.2.2",
@@ -6,5 +7,42 @@
   },
   "devDependencies": {
     "@types/node": "^22.13.13"
+=======
+  "name": "group-project-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Caharodien/group-project-repo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Caharodien/group-project-repo/issues"
+  },
+  "homepage": "https://github.com/Caharodien/group-project-repo#readme",
+  "devDependencies": {
+    "@types/body-parser": "^1.19.5",
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.13.13",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.14.0",
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^0.3.21"
+>>>>>>> main
   }
 }
